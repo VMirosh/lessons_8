@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test8-1</title>
+</head>
+<style>
+      .box{
+        display: flex;
+        justify-content: end;
+      }
+    .one{ 
+      position: relative;
+      background-color: grey;
+      width: 300px;
+      height: 200px;
+      margin: 10px;
+     
+    }
+    .one div{
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      background-color: white;
+      left: 20px;
+      top: 50px;
+    }
+    .two{ 
+      position: relative;
+      background-color: green;
+      width: 300px;
+      margin: 10px;
+      height: 200px;
+      display: inline-block;
+    }
+      .two div{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        right: 20px;
+        top: 50px;
+      }
+      .kolo{
+        display: flex;
+        justify-content: end;
+      }
+    .three{ 
+      position: relative;
+      background-color: grey;
+      border-radius: 100px;
+      width: 300px;
+      height: 200px;
+     
+    }
+    .three div{
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+      background-color: white;
+      left: 20px;
+      top: 50px;
+    }
+    .fort{ 
+      position: relative;
+      background-color:green;
+      border-radius: 100px;
+      width: 300px;
+      height: 200px;
+      
+    }
+      .fort div{
+        position: absolute;
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        right: 20px;
+        top: 50px;
+      }
+</style>
+<body>
+  <div class="box">
+    <div  class="one"><div></div></div>
+  <div class="two"><div></div></div>
+</div>
+<div class="kolo">
+  <div class="three"><div></div></div>
+  <div class="fort"><div></div></div>
+</div>
+</body>
+</html>
